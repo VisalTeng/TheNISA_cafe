@@ -1,0 +1,471 @@
+﻿<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>he NISA Coffee & Bakery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-overlay">
+            <h1 class="shop-name">The NISA Coffee & Bakery</h1>
+            <p class="shop-subtitle">Coffee &amp; Bakery</p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation" title="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#coffee" data-km="កាហ្វេ" data-en="Coffee">កាហ្វេ</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="#tea" data-km="តែ" data-en="Tea">តែ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#food" data-km="អាហារ" data-en="Food">អាហារ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#croissant" data-km="ក្រូសាន់" data-en="Croissant">ក្រូសាន់</a></li>
+                </ul>
+            </div>
+            <button class="btn btn-lang" id="langToggle" title="Switch Language">
+                <i class="fas fa-language"></i> <span id="langLabel">EN</span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container my-4">
+        <!-- COFFEE Section -->
+        <section id="coffee" class="menu-section">
+            <h2 class="section-title" data-km="កាហ្វេ (COFFEE)" data-en="COFFEE">កាហ្វេ (COFFEE)</h2>
+            <div class="row g-3">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Hot Americano" data-price="$1.75" data-img="images/black-coffee.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/black-coffee.jpg" alt="Iced Americano" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Iced Americano" data-km="កាហ្វេត្រជាក់អាមេរិកកាណុ">Iced Americano (កាហ្វេត្រជាក់អាមេរិកកាណុ)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Iced Condensed Milk" data-price="$1.75" data-img="images/Iced Condensed Milk.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/Iced Condensed Milk.jpg" alt="Iced Condensed Milk" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Iced Condensed Milk" data-km="ទឹកដោះគោកក់">Iced Condensed Milk (ទឹកដោះគោកក់)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Iced Latte" data-price="$1.75" data-img="images/Iced Latte.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/Iced Latte.jpg" alt="Iced Latte" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Iced Latte" data-km="កាហ្វេឡាតេកក់">Iced Latte (កាហ្វេឡាតេកក់)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Iced Cappuccino" data-price="$1.75" data-img="images/capucino.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/capucino.jpg" alt="Iced Cappuccino" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Iced Cappuccino" data-km="កាហ្វេក៉ាប៉ុយីណូកក់">Iced Cappuccino (កាហ្វេក៉ាប៉ុយីណូកក់)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Iced Mocha" data-price="$1.75" data-img="images/Moca-cafe.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/Moca-cafe.jpg" alt="Iced Mocha" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Iced Mocha" data-km="ម៉ូកាកក់">Iced Mocha (ម៉ូកាកក់)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Coffee Vanilla Latte" data-price="$1.75" data-img="images/vanila-cafe.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/vanila-cafe.jpg" alt="Coffee Vanilla Latte" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Coffee Vanilla Latte" data-km="កាហ្វេវ៉ានីឡា">Coffee Vanilla Latte (កាហ្វេវ៉ានីឡា)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Coffee Fresh" data-price="$1.75" data-img="images/Coffee Fresh (កាហ្វេស្រស់).jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/Coffee Fresh (កាហ្វេស្រស់).jpg" alt="Coffee Fresh" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Coffee Fresh" data-km="កាហ្វេស្រស់">Coffee Fresh (កាហ្វេស្រស់)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Espresso" data-price="$1.75" data-img="images/expresso.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/expresso.jpg" alt="Espresso" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Espresso" data-km="អេស្ព្រេស្សុ">Espresso (អេស្ព្រេស្សុ)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Iced Chocolate" data-price="$1.75" data-img="images/1786019780_6a747fc4979eb_Hot_Chocolated.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/1786019780_6a747fc4979eb_Hot_Chocolated.jpg" alt="Iced Chocolate" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Iced Chocolate" data-km="សូកូឡាកក់">Iced Chocolate (សូកូឡាកក់)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Macha Latte" data-price="$1.75" data-img="images/Macha latte.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/Macha latte.jpg" alt="Macha Latte" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Macha Latte" data-km="ម៉ាចាឡាតេ">Macha Latte (ម៉ាចាឡាតេ)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Tea Section -->
+        <section id="tea" class="menu-section">
+            <h2 class="section-title">តែ</h2>
+            <div class="row g-3">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Lemon tea" data-price="$1.75" data-img="images/lemon-tea.jpg">
+                            <div class="menu-img-wrapper">
+                            <img src="images/lemon-tea.jpg" alt="Lemon tea" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Lemon tea" data-km="តែក្រូច">Lemon tea (តែក្រូច)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Green Tea" data-price="$1.75" data-img="images/grean tea.jpg">
+                            <div class="menu-img-wrapper">
+                            <img src="images/grean tea.jpg" alt="Green Tea" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Green Tea" data-km="តែបៃតង">Green Tea (តែបៃតង)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Macha" data-price="$1.75" data-img="images/Macha.jpg">
+                            <div class="menu-img-wrapper">
+                            <img src="images/Macha.jpg" alt="Macha" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Macha" data-km="ម៉ាចា">Macha (ម៉ាចា)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Passion soda" data-price="$1.75" data-img="images/passion soda.jpg">
+                            <div class="menu-img-wrapper">
+                            <img src="images/passion soda.jpg" alt="Passion soda" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Passion soda" data-km="ផាសិនសូដា">Passion soda (ផាសិនសូដា)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Passion Milk" data-price="$1.75" data-img="images/passion milk.jpg">
+                            <div class="menu-img-wrapper">
+                            <img src="images/passion milk.jpg" alt="Passion Milk" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Passion Milk" data-km="ផាសិនទឹកដោះគោ">Passion Milk (ផាសិនទឹកដោះគោ)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Green Tea lemon" data-price="$1.75" data-img="images/Green lemon Tea.jpg">
+                            <div class="menu-img-wrapper">
+                            <img src="images/Green lemon Tea.jpg" alt="Green Tea lemon" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Green Tea lemon" data-km="តែបៃតងក្រូច">Green Tea lemon (តែបៃតងក្រូច)</h5>
+                            <p class="menu-price">$1.75</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Food Section -->
+        <section id="food" class="menu-section">
+            <h2 class="section-title" data-km="អាហារ" data-en="Food">អាហារ (FOOD)</h2>
+            <div class="row g-3">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Stir-fried Rice with Chicken" data-price="$1.50" data-img="images/បាយឆាសាច់គោ.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/បាយឆាសាច់គោ.jpg" alt="បាយឆាសាច់គោ" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Stir-fried Rice with Chicken" data-km="បាយឆាសាច់មាន់">បាយឆាសាច់មាន់ (Stir-fried Rice with Chicken)</h5>
+                            <p class="menu-price">$1.50</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Rice with Egg and Minced Pork" data-price="$2.00" data-img="images/បាយឆាម្រះព្រៅ.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/បាយឆាម្រះព្រៅ.jpg" alt="Whole Wheat Bread" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Rice with Egg and Minced Pork" data-km="បាយឆាម្រះព្រៅ">បាយឆាម្រះព្រៅ (Rice with Egg and Minced Pork)</h5>
+                            <p class="menu-price">$2.00</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Chicken Rice" data-price="$1.50" data-img="images/បាយមាន់ស្រែ.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/បាយមាន់ស្រែ.jpg" alt="Fried Egg" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Chicken Rice" data-km="បាយសាច់មាន់">បាយសាច់មាន់ (Chicken Rice)</h5>
+                            <p class="menu-price">$1.50</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+<div class="menu-card" data-name="មីឆាសាច់គោ" data-price="$1.50" data-img="images/មីឆាសាច់គោ.jpg">
+                            <div class="menu-img-wrapper">
+                            <img src="images/មីឆាសាច់គោ.jpg" alt="មីឆាសាច់គោ" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="មីឆាសាច់គោ" data-km="មីឆាសាច់គោ">មីឆាសាច់គោ</h5>
+                            <p class="menu-price">$1.50</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Shrimp Fried Rice" data-price="$2.50" data-img="images/បាយឆាគ្រឿងសមុទ្រ.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/បាយឆាគ្រឿងសមុទ្រ.jpg" alt="Pizza" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Shrimp Fried Rice" data-km="បាយឆាគ្រឿងសមុទ្រ">បាយឆាគ្រឿងសមុទ្រ (Shrimp Fried Rice)</h5>
+                            <p class="menu-price">$2.50</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Beef Noodle Soup" data-price="$3.00" data-img="images/មីស៊ុបសាច់គោ.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/មីស៊ុបសាច់គោ.jpg" alt="Pancakes" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Beef Noodle Soup" data-km="គុយទាវសាច់គោ">គុយទាវសាច់គោ (Beef Noodle Soup)</h5>
+                            <p class="menu-price">$3.00</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Grilled Pork" data-price="$3.50" data-img="images/បាយសាច់ជ្រូកអាំង.jpg">
+                        <div class="menu-img-wrapper">
+                            <img src="images/បាយសាច់ជ្រូកអាំង.jpg" alt="Grilled Meat" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Grilled Pork" data-km="សាច់ជ្រូកអាំង">សាច់ជ្រូកអាំង (Grilled Pork)</h5>
+                            <p class="menu-price">$3.50</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Croissant Section -->
+        <section id="croissant" class="menu-section">
+            <h2 class="section-title">ក្រូសាន់</h2>
+            <div class="row g-3">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Croissant" data-price="$3.50" data-img="images/Croissant.jpg">
+                            <div class="menu-img-wrapper">
+                            <img src="images/Croissant.jpg" alt="Croissant" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Croissant" data-km="ក្រូសាន់">Croissant (ក្រូសាន់)</h5>
+                            <p class="menu-price">$3.50</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Croissant Almond" data-price="$4.00" data-img="images/_Croissant_Almond.jpg">
+                            <div class="menu-img-wrapper">
+                            <img src="images/_Croissant_Almond.jpg" alt="Croissant Almond" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Croissant Almond" data-km="ក្រូសាន់អាល់ម៉ុន">Croissant Almond (ក្រូសាន់អាល់ម៉ុន)</h5>
+                            <p class="menu-price">$4.00</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="menu-card" data-name="Croissant Chocolate" data-price="$4.50" data-img="images/Croissant_chocolate.jpg">
+                            <div class="menu-img-wrapper">
+                            <img src="images/Croissant_chocolate.jpg" alt="Croissant Chocolate" class="menu-img">
+                        </div>
+                        <div class="menu-info">
+                            <h5 class="menu-name" data-en="Croissant Chocolate" data-km="ក្រូសាន់សូកូឡា">Croissant Chocolate (ក្រូសាន់សូកូឡា)</h5>
+                            <p class="menu-price">$4.50</p>
+                        </div>
+                        <span class="view-more-overlay"><i class="fas fa-eye"></i> View More</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        <p class="mb-0">&copy; 2026 ហេ នីសា កាហ្វេ &amp; នំប៉័ង។ រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+    </footer>
+
+    <!-- Item Detail Modal -->
+    <div class="modal fade" id="itemModal" tabindex="-1" aria-labelledby="itemModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="itemModalLabel">Item Details</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="modalImg" src="" alt="" class="modal-item-img mb-3">
+                    <h4 id="modalName" class="modal-item-name"></h4>
+                    <p id="modalPrice" class="modal-item-price"></p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var currentLang = 'km';
+
+        document.querySelectorAll('.menu-card').forEach(function(card) {
+            card.style.cursor = 'pointer';
+            card.addEventListener('click', function() {
+                var name = currentLang === 'km' ? this.getAttribute('data-name-km') || this.getAttribute('data-name') : this.getAttribute('data-name');
+                var price = this.getAttribute('data-price');
+                var img = this.getAttribute('data-img');
+
+                document.getElementById('modalImg').src = img;
+                document.getElementById('modalImg').alt = name;
+                document.getElementById('modalName').textContent = name;
+                document.getElementById('modalPrice').textContent = price;
+
+                var modal = new bootstrap.Modal(document.getElementById('itemModal'));
+                modal.show();
+            });
+        });
+
+        document.getElementById('langToggle').addEventListener('click', function() {
+            currentLang = currentLang === 'km' ? 'en' : 'km';
+            document.getElementById('langLabel').textContent = currentLang === 'km' ? 'EN' : 'KH';
+            document.documentElement.lang = currentLang;
+
+            // Toggle nav links
+            document.querySelectorAll('.nav-link[data-km]').forEach(function(link) {
+                link.textContent = currentLang === 'km' ? link.getAttribute('data-km') : link.getAttribute('data-en');
+            });
+
+            // Toggle section titles
+            document.querySelectorAll('.section-title[data-km]').forEach(function(title) {
+                title.textContent = currentLang === 'km' ? title.getAttribute('data-km') : title.getAttribute('data-en');
+            });
+
+            // Toggle menu item names
+            document.querySelectorAll('.menu-name[data-km]').forEach(function(name) {
+                var en = name.getAttribute('data-en');
+                var km = name.getAttribute('data-km');
+                name.textContent = currentLang === 'km' ? en + ' (' + km + ')' : km + ' (' + en + ')';
+            });
+
+            // Toggle footer
+            document.querySelector('footer p').innerHTML = currentLang === 'km'
+                ? '&copy; 2026 ហេ នីសា កាហ្វេ &amp; នំប៉័ង។ រក្សាសិទ្ធិគ្រប់យ៉ាង។'
+                : '&copy; 2026 he NISA Coffee &amp; Bakery. All rights reserved.';
+        });
+    </script>
+</body>
+</html>
+
+
+
+
