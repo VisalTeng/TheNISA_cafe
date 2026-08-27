@@ -5,20 +5,20 @@
 }
 
 body {
-    font-family: 'Noto Sans Khmer', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
 }
 
 /* Header */
 .header {
-    background: url('images/logo%20cafe.jpg') no-repeat center center;
+    background: url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1920&h=400&fit=crop') no-repeat center center;
     background-size: cover;
     height: 300px;
     position: relative;
 }
 
 .header-overlay {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+    background: rgba(0, 0, 0, 0.6);
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -30,16 +30,13 @@ body {
     color: #fff;
     font-size: 2.5rem;
     font-weight: 700;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .shop-subtitle {
-    color: #f0e6d3;
-    font-size: 1.1rem;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
-    letter-spacing: 3px;
-    font-weight: 300;
+    color: #fff;
+    font-size: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 /* Navbar */
@@ -180,7 +177,7 @@ footer {
     }
 
     .menu-img-wrapper {
-        height: 100px;
+                height: 100px;
     }
 
     .menu-info {
@@ -194,29 +191,6 @@ footer {
     .menu-price {
         font-size: 0.8rem;
     }
-}
-
-/* Language Button */
-.btn-lang {
-    background-color: #d4a574;
-    color: #fff;
-    border: none;
-    border-radius: 20px;
-    padding: 0.35rem 0.9rem;
-    font-weight: 600;
-    font-size: 0.85rem;
-    white-space: nowrap;
-    transition: background-color 0.3s ease;
-    margin-left: 0.5rem;
-}
-
-.btn-lang:hover {
-    background-color: #c49464;
-    color: #fff;
-}
-
-.btn-lang i {
-    margin-right: 0.2rem;
 }
 
 /* View More Overlay */
@@ -279,6 +253,12 @@ footer {
     font-weight: 700;
     color: #333;
     margin-bottom: 0.5rem;
+}
+
+.modal-item-desc {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 0.75rem;
 }
 
 .modal-item-price {
